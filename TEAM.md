@@ -1,10 +1,10 @@
 # TEAM — Ngày 12
 
-Mã bộ ảnh: **G05** · Hình thức: <nhóm / cá nhân — xóa một>
+Mã bộ ảnh: **G05** · Hình thức: Cá nhân 
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Hoàng Hải Đăng | 2A202603189 | có | <tên bạn review chéo> | 29 / 74 |
+| Hoàng Hải Đăng | 2A202603189 | có | Nguyễn Thiên Phúc | 29 / 74 |
 
 Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + đối tượng):
 
