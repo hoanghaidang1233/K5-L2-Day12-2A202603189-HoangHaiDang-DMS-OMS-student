@@ -2,7 +2,7 @@
 
 Làm cá nhân, không mở slide, khoảng 10 phút. Ghi đáp án ngay dưới mỗi câu.
 
-**Họ tên:** Hoàng Hải Đăng · **Mã:** 2A202403189 G05
+**Họ tên:** Hoàng Hải Đăng · **Mã:** 2A202603189 G05
 
 ---
 
