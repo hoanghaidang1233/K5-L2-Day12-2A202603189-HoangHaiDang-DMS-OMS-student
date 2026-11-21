@@ -1,0 +1,75 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,unknown,night,ambiguous,4.4-1,"Giữ unknown: ảnh NIR không cho biết ngày/đêm, không đoán; cần hỏi coach"
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.26,,,,
+D01.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.2,Không sửa: DMS không vẽ object; peer xoá box object
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D02.png,frame_meta,light,khác giá trị,unknown,night,ambiguous,4.4-1,"Giữ unknown: ảnh NIR không cho biết ngày/đêm, không đoán; cần hỏi coach"
+D02.png,face,gaze_zone,khác giá trị (IoU=0.75),road,other,,,
+D02.png,face,glasses,khác giá trị (IoU=0.75),clear,none,,,
+D02.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D02.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.2,Không sửa: DMS không vẽ object; peer xoá box object
+D03.png,frame_meta,light,khác giá trị,unknown,night,ambiguous,4.4-1,"Giữ unknown: ảnh NIR không cho biết ngày/đêm, không đoán; cần hỏi coach"
+D03.png,hand,on_wheel,khác giá trị (IoU=0.79),no,yes,,,
+D03.png,hand,on_wheel,khác giá trị (IoU=0.62),unknown,no,,,
+D03.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.2,Không sửa: DMS không vẽ object; peer xoá box object
+D03.png,face13,right_eye_outer.occluded,khác cờ,1,0,,,
+D03.png,face13,right_eye_inner.occluded,khác cờ,1,0,,,
+D03.png,face13,right_eye_upper.occluded,khác cờ,1,0,,,
+D03.png,face13,right_eye_lower.occluded,khác cờ,1,0,,,
+D03.png,face13,mouth_right.outside,khác cờ,0,1,,,
+D04.png,frame_meta,light,khác giá trị,unknown,night,ambiguous,4.4-1,"Giữ unknown: ảnh NIR không cho biết ngày/đêm, không đoán; cần hỏi coach"
+D04.png,hand,on_wheel,khác giá trị (IoU=0.70),unknown,no,,,
+D04.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.24,,,,
+D04.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D05.png,frame_meta,light,khác giá trị,unknown,night,ambiguous,4.4-1,"Giữ unknown: ảnh NIR không cho biết ngày/đêm, không đoán; cần hỏi coach"
+D05.png,face,gaze_zone,khác giá trị (IoU=0.54),other,cluster,,,
+D05.png,hand,on_wheel,khác giá trị (IoU=0.58),unknown,no,,,
+D05.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.2,Không sửa: DMS không vẽ object; peer xoá box object
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,,,
+D05.png,face13,right_eye_outer.outside,khác cờ,0,1,,,
+D05.png,face13,right_eye_inner.occluded,khác cờ,1,0,,,
+D05.png,face13,right_eye_inner.outside,khác cờ,0,1,,,
+D05.png,face13,right_eye_upper.occluded,khác cờ,1,0,,,
+D05.png,face13,right_eye_upper.outside,khác cờ,0,1,,,
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,,,
+D05.png,face13,right_eye_lower.outside,khác cờ,0,1,,,
+D05.png,face13,mouth_right.outside,khác cờ,0,1,,,
+D06.png,frame_meta,light,khác giá trị,unknown,night,ambiguous,4.4-1,"Giữ unknown: ảnh NIR không cho biết ngày/đêm, không đoán; cần hỏi coach"
+D06.png,face,gaze_zone,khác giá trị (IoU=0.74),road,other,,,
+S01_ir.png,face,eye_left,khác giá trị (IoU=0.79),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S01_ir.png,face,eye_right,khác giá trị (IoU=0.79),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S01_ir.png,face,gaze_zone,khác giá trị (IoU=0.79),mirror_r,other,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S01_ir.png,face,glasses,khác giá trị (IoU=0.79),none,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S01_rgb.png,face,eye_left,khác giá trị (IoU=0.77),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S01_rgb.png,face,eye_right,khác giá trị (IoU=0.77),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S01_rgb.png,face,gaze_zone,khác giá trị (IoU=0.77),mirror_r,other,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S01_rgb.png,face,glasses,khác giá trị (IoU=0.77),none,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S02_ir.png,infant_seat,facing,khác giá trị (IoU=0.98),front,rear,,,
+S02_ir.png,face,eye_left,khác giá trị (IoU=0.60),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S02_ir.png,face,eye_right,khác giá trị (IoU=0.60),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S02_ir.png,face,glasses,khác giá trị (IoU=0.60),none,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face, thuộc tính không dùng; giữ nguyên, hỏi coach có cần đổi sang unknown/other"
+S02_rgb.png,infant_seat,facing,khác giá trị (IoU=0.98),front,rear,,,
+S03_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S03_ir.png,object,seat,khác giá trị (IoU=0.85),rear_left,rear_right,mine,4.4-3,Không sửa: vật bên phải ảnh = rear_left theo xe; peer sửa thành rear_left
+S03_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S03_rgb.png,object,seat,khác giá trị (IoU=0.85),rear_left,rear_right,mine,4.4-3,Không sửa: vật bên phải ảnh = rear_left theo xe; peer sửa thành rear_left
+S03_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S04_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_rgb.png,frame_meta,modality,khác giá trị,rgb,ir,mine,4.3-1,Không sửa: ảnh _rgb thì modality=rgb; peer sửa thành rgb
+S04_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S04_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S05_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Giữ box face: OMS người lớn gán person kèm face; peer bổ sung box face
+S05_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Giữ box face: OMS người lớn gán person kèm face; peer bổ sung box face
+S06_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Giữ box face: OMS người lớn gán person kèm face; peer bổ sung box face
+S06_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Giữ box face: OMS người lớn gán person kèm face; peer bổ sung box face
+S08_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.31,,,,
+S08_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S08_ir.png,face,gaze_zone,khác giá trị (IoU=0.52),mirror_r,other,,,
+S08_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S08_rgb.png,frame_meta,modality,khác giá trị,rgb,ir,mine,4.3-1,Không sửa: ảnh _rgb thì modality=rgb; peer sửa thành rgb
+S08_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.40,,,,
+S08_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S08_rgb.png,face,gaze_zone,khác giá trị (IoU=0.52),mirror_r,other,,,
+S08_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
